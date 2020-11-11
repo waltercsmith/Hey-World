@@ -1,3 +1,6 @@
+'use strict'
+
+
 var askHowAreYou = prompt("How are you doing?");
 alert("I'm glad you're doing " + askHowAreYou);
 var pickAColor = prompt("Choose between the color red or blue: ");
