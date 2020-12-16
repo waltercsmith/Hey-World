@@ -1,0 +1,7 @@
+p {
+    font-size: 50px;
+    font-family: Baskerville;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
