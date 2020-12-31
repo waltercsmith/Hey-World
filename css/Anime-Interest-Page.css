@@ -82,3 +82,7 @@ h1 {
 #luffy {
     border: 5px solid black;
 }
+
+button {
+    width: 80px;
+}
