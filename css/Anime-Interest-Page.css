@@ -91,5 +91,30 @@ button {
     max-width: 100%;
     height: auto;
 }
+ #anime {
+     display: block;
+     width: 400px;
+     height: 400px;
+     padding: 5px;
+     border: 2px solid black;
+     background-color: gray;
+ }
 
+ #simply-japanese {
+     display: block;
+     width: 400px;
+     height: 400px;
+     padding: 5px;
+     border: 2px solid black;
+     background-color: gray;
+ }
+
+ #more-than-just-art {
+     display: block;
+     width: 400px;
+     height: 400px;
+     padding: 5px;
+     border: 2px solid black;
+     background-color: gray;
+ }
 
