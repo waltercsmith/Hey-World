@@ -93,17 +93,22 @@ button {
 }
  #anime {
      display: flex;
+     flex-direction: column;
      justify-content: center;
+     text-align: center;
      width: 400px;
      height: 400px;
      padding: 5px;
      border: 2px solid black;
      background-color: #5b9aa0;
+
  }
 
  #simply-japanese {
      display: flex;
+     flex-direction: column;
      justify-content: center;
+     text-align: center;
      width: 400px;
      height: 400px;
      padding: 5px;
@@ -113,7 +118,9 @@ button {
 
  #more-than-just-art {
      display: flex;
+     flex-direction: column;
      justify-content: center;
+     text-align: center ;
      width: 400px;
      height: 400px;
      padding: 5px;
