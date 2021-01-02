@@ -91,6 +91,11 @@ console.log("");
 
 
 
+var delay = 15000;
+
+var timeoutId = setTimeout(function () {
+    alert("Here is a delayed hello!");
+}, delay);
 
 
 
