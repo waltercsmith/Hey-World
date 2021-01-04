@@ -99,3 +99,7 @@ var timeoutId = setTimeout(function () {
 
 
 
+var clickButton = function (event) {
+    alert('I hope you like the webpage!')
+}
+document.getElementById('btn1').addEventListener('click', clickButton);

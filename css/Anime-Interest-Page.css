@@ -128,3 +128,9 @@ button {
      background-color:#5b9aa0 ;
  }
 
+#btn1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
