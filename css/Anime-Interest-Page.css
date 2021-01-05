@@ -5,6 +5,10 @@ body {
     /*align-items: center;*/
 }
 
+.background-color {
+    background-color: #c2d4dd;
+}
+
 .fancy-font {
     color: black;
     font-weight: bold;

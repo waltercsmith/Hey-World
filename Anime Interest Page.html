@@ -62,9 +62,9 @@
         </div>
 
         <div id="buttons">
-            <button id="btn1">Button No. 1</button>
-            <button id="btn2">Button No. 2</button>
-            <button>Button No. 3</button>
+            <button id="btn1" class="badge badge-pill">Button No. 1</button>
+            <button id="btn2" class="badge badge-pill">Button No. 2</button>
+            <button id="btn3" class="badge badge-pill">Button No. 3</button>
         </div>
 
         <main class="fancy-font">
@@ -161,6 +161,11 @@
 
             $("#btn2").click(function () {
                 $("main").toggle();
+            })
+
+            $("#btn3").click(function () {
+                $("body").toggleClass("background-color");
+
             })
 
         </script>
