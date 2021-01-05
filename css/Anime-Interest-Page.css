@@ -134,3 +134,9 @@ button {
     justify-content: center;
     text-align: center;
 }
+
+.highlighted-style {
+    color:#5b9aa0;
+    border-color: black;
+    background-color:#b8a9c9 ;
+}
