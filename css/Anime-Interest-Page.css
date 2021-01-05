@@ -21,6 +21,7 @@ body {
 
 }
 
+
 /*.image-bundle {*/
 /*    height: 40%;*/
 /*    width: 40%;*/
@@ -83,9 +84,9 @@ h1 {
     border: 5px solid black;
 }
 
-button {
-    width: 80px;
-}
+/*button {*/
+/*    width: 80px;*/
+/*}*/
 
 .carousel-inner img {
     max-width: 100%;
@@ -118,7 +119,7 @@ button {
 
  #more-than-just-art {
      display: flex;
-     flex-direction: column;
+     flex-direction: row;
      justify-content: center;
      text-align: center ;
      width: 400px;
@@ -128,9 +129,8 @@ button {
      background-color:#5b9aa0 ;
  }
 
-#btn1 {
+#buttons {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     text-align: center;
 }
@@ -142,5 +142,9 @@ button {
 }
 
 button {
+    margin: 20px 0 20px 0;}
 
+#fourButtonContainer {
+    border: 5px solid black;
+    padding: 20px;
 }
