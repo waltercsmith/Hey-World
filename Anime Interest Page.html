@@ -63,7 +63,7 @@
 
         <div id="buttons">
             <button id="btn1">Button No. 1</button>
-            <button>Button No. 2</button>
+            <button id="btn2">Button No. 2</button>
             <button>Button No. 3</button>
         </div>
 
@@ -157,6 +157,10 @@
             $("h1").click(function () {
                 $(this).toggleClass("highlighted-style");
 
+            })
+
+            $("#btn2").click(function () {
+                $("main").toggle();
             })
 
         </script>
