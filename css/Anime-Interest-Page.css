@@ -138,5 +138,9 @@ button {
 .highlighted-style {
     color:#5b9aa0;
     border-color: black;
-    background-color:#b8a9c9 ;
+    background-color:#f0f0f0 ;
+}
+
+button {
+
 }
