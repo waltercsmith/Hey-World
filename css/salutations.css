@@ -36,3 +36,7 @@ p {
     justify-content: center;
 
 }
+
+.list-group-item {
+    font-weight: bolder;
+}
