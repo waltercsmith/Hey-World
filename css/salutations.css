@@ -40,3 +40,15 @@ p {
 .list-group-item {
     font-weight: bolder;
 }
+
+/*.new-calc {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: center;*/
+/*}*/
+
+#new-calc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
