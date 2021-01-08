@@ -71,4 +71,6 @@ p {
     justify-content: center;
 }
 
-
+#big-calc {
+    margin: auto;
+}
