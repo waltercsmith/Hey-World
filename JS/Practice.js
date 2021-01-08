@@ -21,3 +21,5 @@ console.log();
 //displayed the string new entry and the variable song in the console to let the user know that their song is added
 console.log("New Entry: " + song);
 
+
+
