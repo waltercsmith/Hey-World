@@ -38,6 +38,11 @@ console.log(codeup.length);
 
 console.log("The index of the letter c is: " + codeup.indexOf("c") + " and " + "The index of the letter c is: " + codeup.indexOf("u"));
 
+//Going to try to use the replace function to change the world codeup to CodeUp
+
+console.log(codeup.replace("codeup","CodeUp"));
+
+// Using the replace function was a success for chaning the word codeup to CodeUp
 
 
 
