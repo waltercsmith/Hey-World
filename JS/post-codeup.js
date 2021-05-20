@@ -20,6 +20,10 @@ var graduationYear = gradYear.toString();
 
 console.log(graduationYear);
 
+var firstLastName = "WalterSmith";
 
+console.log(firstLastName.substring(2,8));
+
+console.log(firstLastName.length);
 
 
