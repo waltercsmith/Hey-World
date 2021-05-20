@@ -42,7 +42,7 @@ console.log("The index of the letter c is: " + codeup.indexOf("c") + " and " + "
 
 console.log(codeup.replace("codeup","CodeUp"));
 
-// Using the replace function was a success for chaning the word codeup to CodeUp
+// Using the replace function was a success for changing the word codeup to CodeUp
 
 
 
