@@ -20,7 +20,7 @@ var graduationYear = gradYear.toString();
 
 console.log(graduationYear);
 
-var firstLastName = "WalterSmith";
+var firstLastName = "Walter Smith";
 
 console.log(firstLastName.substring(2,8));
 
@@ -44,8 +44,20 @@ console.log(codeup.replace("codeup","CodeUp"));
 
 // Using the replace function was a success for changing the word codeup to CodeUp
 
+// This function when called should console log a string
 function sayHello(){
     console.log("Hey, Y'all!");
-
 }
+
+sayHello();
+
+// So variables can be passed in an alert as well as a string
+alert("The person who created this alert is " + firstLastName);
+
+// Prompt for the user to type their name and the console log their name with a welcome
+
+var userInput = prompt("Type your name here");
+
+
+
 
