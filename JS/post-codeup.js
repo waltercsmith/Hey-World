@@ -44,5 +44,8 @@ console.log(codeup.replace("codeup","CodeUp"));
 
 // Using the replace function was a success for changing the word codeup to CodeUp
 
+function sayHello(){
+    console.log("Hey, Y'all!");
 
+}
 
