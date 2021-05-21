@@ -58,6 +58,10 @@ alert("The person who created this alert is " + firstLastName);
 
 var userInput = prompt("Type your name here");
 
+console.log("Hello " + userInput);
+
+// When the user inputs text, an alert will display Welcome plus the user input
+alert("Welcome " + userInput);
 
 
 
