@@ -63,8 +63,7 @@ console.log("Hello " + userInput);
 // When the user inputs text, an alert will display Welcome plus the user input
 alert("Welcome " + userInput);
 
-// Goal is to take an array of letters and sort the letters alphabetically
-var lettersArray = ['b','z','a','h'];
+
 
 // Now I will convert the array to a string
 var lettersString = lettersArray.join(',');
@@ -80,11 +79,5 @@ var alphabetArray = alphabetString.split(',');
 
 console.log()
 
-// GOAL COMPLETED! REARRANGED AN ARRAY OF LETTERS IN ALPHABETICAL ORDER
 
-function alphabetOrder(arr){
-    return arr.sort();
-}
-
-console.log(alphabetOrder(['b', 'c', 'd', 'a']));
 

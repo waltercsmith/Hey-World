@@ -21,3 +21,12 @@ for(var i = 1; i < 101; i++){
 
 }
 
+// Goal is to take an array of letters and sort the letters alphabetically
+var lettersArray = ['b','z','a','h'];
+
+function alphabetOrder(arr) {
+    return arr.sort();
+}
+// GOAL COMPLETED! REARRANGED AN ARRAY OF LETTERS IN ALPHABETICAL ORDER
+
+console.log(alphabetOrder(lettersArray));
