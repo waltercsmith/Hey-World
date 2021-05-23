@@ -64,7 +64,11 @@ console.log("Hello " + userInput);
 alert("Welcome " + userInput);
 
 // Goal is to take an array of letters and sort the letters alphabetically
-var letters = ['b','z','a','h'];
+var lettersArray = ['b','z','a','h'];
+
+// Now I will convert the array to a string
+var lettersString = lettersArray.join(',');
 
 
+console.log()
 
