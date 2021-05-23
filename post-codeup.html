@@ -7,9 +7,19 @@
 </head>
 <body>
     <h1>An Basic HTML Page</h1>
-        <p></p>
+        <h2 id="welcome-phrase"></h2>
 
 <script src="JS/post-codeup.js"></script>
 <script src="JS/post-codeup-challenges.js"></script>
+<script>
+    "use strict";
+    (function (){
+        // This variable retrieves an element by Id
+            var getH2Element = document.getElementById("welcome-phrase");
+
+        // Then the inner HTML of an element is updated by the user's input
+            getH2Element.innerHTML = userInput;
+        })();
+</script>
 </body>
 </html>

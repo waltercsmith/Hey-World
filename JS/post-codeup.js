@@ -63,6 +63,11 @@ console.log("Hello " + userInput);
 // When the user inputs text, an alert will display Welcome plus the user input
 alert("Welcome " + userInput);
 
+// (function (){
+//     var getH2Element = document.getElementById('')
+//     }
+// )
+
 
 
 // Now I will convert the array to a string
