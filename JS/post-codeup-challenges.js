@@ -30,3 +30,13 @@ function alphabetOrder(arr) {
 // GOAL COMPLETED! REARRANGED AN ARRAY OF LETTERS IN ALPHABETICAL ORDER
 
 console.log(alphabetOrder(lettersArray));
+
+
+// Sort an array of numbers in descending order
+var arrOfNums = [3,4,8,2,4,786,302,9000,1,4,6,7];
+
+function descendingOrder(arr){
+    return arr.sort(function(a,b){return b-a});
+}
+
+console.log(descendingOrder(arrOfNums));
