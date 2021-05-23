@@ -40,3 +40,16 @@ function descendingOrder(arr){
 }
 
 console.log(descendingOrder(arrOfNums));
+
+// Define a function named isTrue that takes in any input and returns true if the input provided is exactly equal to true in value and data type.
+function isTrue(input){
+    return input === true;
+}
+// Check to see if function works in all circumstances
+console.log(isTrue(true))
+console.log(isTrue(false))
+console.log(isTrue(0))
+console.log(isTrue(null))
+console.log(isTrue("true"))
+console.log(isTrue("Banana"))
+console.log(isTrue([1,2]))
