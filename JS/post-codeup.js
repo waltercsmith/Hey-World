@@ -77,9 +77,14 @@ var alphabetString = lettersString.replace("b,z,a,h","a,b,h,z");
 var alphabetArray = alphabetString.split(',');
 
 
-for (var i = 0; i <= lettersString.length; i++){
-    console.log(i);
-}
 
 console.log()
+
+// GOAL COMPLETED! REARRANGED AN ARRAY OF LETTERS IN ALPHABETICAL ORDER
+
+function alphabetOrder(arr){
+    return arr.sort();
+}
+
+console.log(alphabetOrder(['b', 'c', 'd', 'a']));
 
