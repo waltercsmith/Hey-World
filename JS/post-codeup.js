@@ -63,6 +63,8 @@ console.log("Hello " + userInput);
 // When the user inputs text, an alert will display Welcome plus the user input
 alert("Welcome " + userInput);
 
+// Goal is to take an array of letters and sort the letters alphabetically
+var letters = ['b','z','a','h'];
 
 
 
