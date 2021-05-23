@@ -69,6 +69,17 @@ var lettersArray = ['b','z','a','h'];
 // Now I will convert the array to a string
 var lettersString = lettersArray.join(',');
 
+// Created a variable that holds the rearranged letters that uses the replace method
+var alphabetString = lettersString.replace("b,z,a,h","a,b,h,z");
+
+// Converts the string into an array
+
+var alphabetArray = alphabetString.split(',');
+
+
+for (var i = 0; i <= lettersString.length; i++){
+    console.log(i);
+}
 
 console.log()
 
