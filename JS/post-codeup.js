@@ -26,6 +26,13 @@ console.log(firstLastName.substring(2,8));
 
 console.log(firstLastName.length);
 
+// Used object literal notation of a user
+var user = {};
+
+// Assigned properties to the object using dot notation
+
+user.username = "visitor";
+
 //Goal to uppercase the 'c' and the 'u' in codeup
 
 var codeup = "codeup";
