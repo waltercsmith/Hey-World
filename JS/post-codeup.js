@@ -33,6 +33,12 @@ var user = {};
 
 user.username = "visitor";
 
+user.password = "secret";
+
+user.email = "readyplayer1@gmail.com";
+
+user.phrase = "Forward always, Always forward";
+
 //Goal to uppercase the 'c' and the 'u' in codeup
 
 var codeup = "codeup";
