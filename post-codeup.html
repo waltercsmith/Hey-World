@@ -15,7 +15,7 @@
             </div>
 
             <div>
-                <label>User's Phrase</label>
+                <label>User's Phrase:</label>
                 <p id="user-phrase"></p>
             </div>
 
@@ -36,9 +36,22 @@
     var delay = 10000; // delay in milliseconds
 
     var timeOutId = setTimeout(function (){
-    userInput = prompt("Provide your username");
-    userInput = prompt("Type a short phrase that you identify with");
+
+    var userInputName = prompt("Provide your username");
+
+    var userInputPhrase = prompt("Type a short phrase that you identify with");
+
+        var getUserNameId = document.getElementById("username");
+
+        getUserNameId.innerHTML = userInputName;
+
+        var getUserPhraseId = document.getElementById("user-phrase");
+
+        getUserPhraseId.innerHTML = userInputPhrase;
+
     }, delay)
+
+
 </script>
 </body>
 </html>
