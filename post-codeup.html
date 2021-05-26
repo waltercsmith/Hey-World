@@ -9,6 +9,15 @@
     <h1>An Basic HTML Page</h1>
         <h2 id="welcome-phrase"></h2>
 
+            <div>
+                <label>Username:</label>
+                <p id="username"></p>
+            </div>
+
+            <div>
+                <label>User's Phrase</label>
+                <p id="user-phrase"></p>
+            </div>
 <script src="JS/post-codeup.js"></script>
 <script src="JS/post-codeup-challenges.js"></script>
 <script>
@@ -19,6 +28,8 @@
 
         // Then the inner HTML of an element is updated by the user's input
             getH2Element.innerHTML = "Welcome, " + userInput + "!";
+
+
         })();
 </script>
 </body>
